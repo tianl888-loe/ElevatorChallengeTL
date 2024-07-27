@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorChallengeTL", "ElevatorChallengeTL\ElevatorChallengeTL.csproj", "{6BA961D2-C631-4A45-8B0B-1B0A2CF0197C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D2C1DBEB-0717-451D-ACD7-663C3AB89C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorChallengeTL.Tests", "ElevatorChallengeTL.Tests\ElevatorChallengeTL.Tests.csproj", "{99C00A62-78EF-4CC2-8D91-5F6845B92181}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA961D2-C631-4A45-8B0B-1B0A2CF0197C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA961D2-C631-4A45-8B0B-1B0A2CF0197C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA961D2-C631-4A45-8B0B-1B0A2CF0197C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA961D2-C631-4A45-8B0B-1B0A2CF0197C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C00A62-78EF-4CC2-8D91-5F6845B92181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C00A62-78EF-4CC2-8D91-5F6845B92181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C00A62-78EF-4CC2-8D91-5F6845B92181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C00A62-78EF-4CC2-8D91-5F6845B92181}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99C00A62-78EF-4CC2-8D91-5F6845B92181} = {D2C1DBEB-0717-451D-ACD7-663C3AB89C7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08A673EA-9473-4773-B54F-8D2FBB679291}
+	EndGlobalSection
+EndGlobal
